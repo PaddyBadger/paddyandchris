@@ -1,0 +1,200 @@
+html {
+ background-image:url('backdrop.png');
+ background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 1400px;
+
+}
+
+body {
+  font-family: 'Pinyon Script', cursive;
+  margin: auto;
+  color: black;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+form {
+  font-size: 40px;
+  text-align: center;
+}
+
+input {
+  height: 50px;
+  width: 300px;
+  left: 550;
+  z-index: 10;
+  position: absolute;
+}
+
+input[type=text] {
+  font-size: 30px;
+  font-family: 'Pinyon Script', cursive;
+  text-align: center;
+  color: grey;
+}
+
+.butterfly {
+  
+}
+
+#bluebutterfly1 {
+  top:10;
+  left: 1000;
+  height: 160px;
+  position: absolute;
+  transform:rotate(7deg);
+  -ms-transform:rotate(7deg); 
+  -webkit-transform:rotate(7deg); 
+  z-index: 5;
+
+}
+
+#bluebutterfly2 {
+  top:50;
+  left: 200;
+  height: 120px;
+  position: absolute;
+    transform:rotate(70deg);
+  -ms-transform:rotate(70deg); 
+  -webkit-transform:rotate(70deg); 
+  z-index: 5;
+
+}
+
+#bluebutterfly3 {
+  top:400;
+  left: 700;
+  height: 180px;
+  position: absolute;
+    transform:rotate(90deg);
+  -ms-transform:rotate(90deg); 
+  -webkit-transform:rotate(90deg); 
+  z-index: 5;
+}
+
+#openpeony1 {
+  top:450;
+  left: 800;
+  height: 600px;
+  position: absolute;
+  z-index: 3;
+}
+
+#openpeony2 {
+  top:450;
+  left: 50;
+  height: 600px;
+  position: absolute;
+  z-index: 3;
+}
+
+#poppyclosed1 {
+  height: 200px;
+  position: absolute;
+  top:650;
+  left: 0;
+  z-index: 4;
+}
+
+#poppyclosed2 {
+  height: 200px;
+  position: absolute;
+  top:700;
+  left: 900;
+}
+
+#poppyopen1 {
+  height: 500px;
+  position: absolute;
+  top:400;
+  left: 70;
+  z-index: 0;
+}
+
+#poppyopen2 {
+  height: 500px;
+  position: absolute;
+  top:400;
+  left: 0;
+  z-index: 0;
+}
+
+#grassleft {
+  position: absolute;
+  height: 1000px;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 1;
+}
+
+#grassright {
+  position: absolute;
+  height: 1000px;
+  position: absolute;
+  top:0;
+  left:600;
+  z-index: 1;
+}
+
+#closedpeony1 {
+  height: 500px;
+  position: absolute;
+  top:550;
+  left: 250;
+  z-index: 5;
+    transform:rotate(20deg);
+  -ms-transform:rotate(20deg); 
+  -webkit-transform:rotate(20deg); 
+}
+
+#closedpeony2 {
+  height: 500px;
+  position: absolute;
+  top:520;
+  left: 1000;
+  z-index: 5;
+    transform:rotate(20deg);
+  -ms-transform:rotate(20deg); 
+  -webkit-transform:rotate(20deg); 
+}
+
+#ladybird1 {
+  height: 150px;
+  position: absolute;
+  top:150;
+  left: 220;
+  z-index: 5;
+}
+
+#ladybird2 {
+  height: 150px;
+  position: absolute;
+  top:200;
+  left: 950;
+  z-index: 5;
+    transform:rotate(-40deg);
+  -ms-transform:rotate(-40deg); 
+  -webkit-transform:rotate(-40deg); 
+}
+
+
