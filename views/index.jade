@@ -10,8 +10,9 @@ html.
     <h1 class="title">Paddy and Chris</h1>
     <h2>2015</h2>
     <p>Please enter username</p>
-    <form>
+    <form action="/send" method="get" id="form">
       <input type="text" id="search_name">
+      <input class="submit" type="submit" value="Search">
     </form>
 
      <img id="bluebutterfly1" src="/images/bluebutterflybackless.png">
@@ -36,9 +37,24 @@ html.
 
     <script>
 
-    $(document).ready(function(e) { 
+     $(document).ready(function(e) { 
       
-    }
+          $(".submit").click(function(e) {
+            e.preventDefault();
+             var formData = {
+              'name': document.getElementById("search_name").value};
+                
+            $.ajax({
+                type: "GET",
+                data: formData,
+                url: '/send',
+                dataType: 'json'
+              }).done(function(guest) {
+                console.log("guest name", guest);
+            });
+
+         });
+      });
     </script>
 
 

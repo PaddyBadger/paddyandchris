@@ -45,11 +45,11 @@ router.get('/stag_party', function(req, res) {
 });
 
 router.get('/send', function(req, res) {
-  var category = req.query.category;
-  var location = req.query.location;
-  apiJS.get_info(category, location, function(data) {
-    console.log("routes data", data);
-    res.json(data);
+  var name = req.query.name;
+  console.log("I get called here");
+  apiJS.get_info(name, function(data) {
+    console.log("guest is ", guest);
+    res.json(guest);
   });
 });
 
